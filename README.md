@@ -4,16 +4,15 @@
 
 **Tech:** SQLite, SQL, Python, Git, GitHub
 
-Built a QA-focused database testing project that simulates real-world data validation activities performed by QA Engineers. Designed and populated an e-commerce database, created SQL validation checks, documented test cases and defects, and validated business rules against both clean and defect-injected datasets.
+Built a QA-focused database testing project. I designed and populated an e-commerce database, created SQL validation checks, documented test cases and defects, and validated business rules against both clean and defect-injected datasets.
 
 **Highlights:**
 - ✅ Designed a relational database schema for customers, products, orders, order items, and payments
 - ✅ Created SQLite databases from SQL schema and seed data scripts
-- ✅ Built clean and defect-injected datasets to simulate realistic QA testing scenarios
-- ✅ Developed SQL validation queries for order totals, payment processing, and inventory management
+- ✅ Built clean and defect-injected datasets individually to simulate realistic QA testing
+- ✅ Developed SQL validation queries
 - ✅ Identified and documented defects through structured bug reports
 - ✅ Created formal QA artifacts including a Test Plan, Requirements Traceability Matrix, Defect Log, and Test Summary Report
-- ✅ Simulated financial reconciliation and data integrity validation workflows
 - ✅ Practiced production-support style troubleshooting by investigating data anomalies
 - ✅ Utilized joins, aggregations, filtering, and business-rule validation techniques
 
@@ -38,4 +37,7 @@ Built a QA-focused database testing project that simulates real-world data valid
 - Test Summary Report
 
 **Key Learning Outcomes:**
-👉 Gained hands-on experience validating database-driven business processes, designing SQL-based QA checks, documenting defects, maintaining QA documentation, and investigating data integrity issues commonly encountered in enterprise applications.
+- Showed hands-on experience validating database-driven business processes
+- Designing SQL-based QA checks
+- Documenting defects and maintaining QA documentation
+- Investigating data integrity issues commonly encountered in applications.
