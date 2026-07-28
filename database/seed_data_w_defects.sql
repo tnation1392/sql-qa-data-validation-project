@@ -1,6 +1,6 @@
 INSERT INTO customers VALUES
 (1,'John','Smith','john@email.com'),
-(2,'Jane','Doe','jane@email.com');
+(2,'Jane','Doe','jane@email.com'),
 (3,'Michael','Johnson','mjohnson@email.com'),
 (4,'Emily','Davis','edavis@email.com'),
 (5,'David','Wilson','dwilson@email.com'),
@@ -15,7 +15,7 @@ INSERT INTO customers VALUES
 INSERT INTO products VALUES
 (1001,'Keyboard',49.99,50),
 (1002,'Mouse',24.99,100),
-(1003,'Monitor',199.99,-5);
+(1003,'Monitor',199.99,-5),
 (1004,'Laptop',899.99,20),
 (1005,'Webcam',79.99,35),
 (1006,'USB Hub',29.99,60),
@@ -29,7 +29,7 @@ INSERT INTO products VALUES
 
 INSERT INTO orders VALUES
 (101,1,'2026-01-10',49.99),
-(102,2,'2026-01-12',24.99);
+(102,2,'2026-01-12',24.99),
 (103,3,'2026-01-15',79.99),
 (104,4,'2026-01-16',29.99),
 (105,5,'2026-01-17',39.99),
@@ -41,7 +41,7 @@ INSERT INTO orders VALUES
 
 INSERT INTO order_items VALUES
 (1,101,1001,1),
-(2,102,1002,1);
+(2,102,1002,1),
 (3,103,1005,1),
 (4,104,1006,1),
 (5,105,1007,1),
@@ -54,7 +54,7 @@ INSERT INTO order_items VALUES
 INSERT INTO payments VALUES
 (9001,101,49.99,'Completed'),
 (9002,101,49.99,'Completed'),
-(9003,102,24.99,'Completed');
+(9003,102,24.99,'Completed'),
 (9004,103,79.99,'Completed'),
 (9005,104,29.99,'Completed'),
 (9006,105,39.99,'Completed'),
@@ -63,3 +63,21 @@ INSERT INTO payments VALUES
 (9009,108,129.99,'Completed'),
 (9010,109,199.99,'Completed'),
 (9011,110,149.99,'Completed');
+
+
+-- Adding defects for TC001
+UPDATE orders
+SET order_total = 999.99
+WHERE order_id = 125;
+
+-- Adding defects for TC002
+INSERT INTO payments VALUES
+(9051,120,49.99,'Completed'),
+(9052,120,49.99,'Completed');
+
+-- Adding defects for TC003
+UPDATE products
+SET inventory_count = -10
+where product_id = 1008;
+
+
