@@ -1,0 +1,19 @@
+# TC001 - Order Total Validation
+
+## Requirement
+
+The Order total must equal the sum of all order line items.
+
+## Test Steps
+
+1. Retrieve order total from Orders table.
+2. Calculate total using Product price × Quantity.
+3. Compare values.
+
+## Expected Result
+
+Order total matches calculated value.
+
+## Validation Query
+
+See validation_queries/order_checks.sql

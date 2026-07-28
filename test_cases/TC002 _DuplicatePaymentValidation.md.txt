@@ -1,0 +1,19 @@
+# TC002 - Duplicate Payment Validation
+
+## Requirement
+
+Only one completed payment should exist per order.
+
+## Test Steps
+
+1. Review Payments table.
+2. Group by Order ID.
+3. Count completed payments.
+
+## Expected Result
+
+Each order has exactly one completed payment.
+
+## Validation Query
+
+See validation_queries/payment_checks.sql

@@ -1,0 +1,14 @@
+# TC003 - Inventory Validation
+
+## Requirement
+
+Inventory values may not be negative.
+
+## Test Steps
+
+1. Review inventory counts.
+2. Identify inventory below zero.
+
+## Expected Result
+
+No records returned.
